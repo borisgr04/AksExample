@@ -29,7 +29,7 @@ namespace MsExample5
         #endregion
 
         //VEM-SqlServer-Certificados
-        [HttpGet]
+        [HttpGet]   
         [Route("get-sql-server")]
         public async Task<IActionResult> GetSqlServer()
         {
